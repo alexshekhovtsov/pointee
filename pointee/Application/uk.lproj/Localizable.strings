@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  pointee
+
+  Created by Alexander on 21.04.2020.
+  Copyright © 2020 Point. All rights reserved.
+*/
+
+"sign_up" = "Реєстрація";
+"sign_in" = "Вхід";
+"continue_as_a_guest" = "Продовжити як гість";
+"start_here" = "Почнемо";
+"welcome_back" = "З поверненням";

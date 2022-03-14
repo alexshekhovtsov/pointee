@@ -1,0 +1,120 @@
+/* 
+  Localizable.strings
+  pointee
+
+  Created by Alexander on 21.04.2020.
+  Copyright © 2020 Point. All rights reserved.
+*/
+
+"ok_title" = "Ok";
+"yes_title" = "Yes";
+"cancel" = "Cancel";
+
+"sign_up" = "Sign up";
+"sign_in" = "Sign in";
+"continue_as_a_guest" = "Continue as a guest";
+"start_here" = "Start here";
+"welcome_back" = "Welcome back";
+
+"email" = "E-mail";
+"password" = "Password";
+"confirm_password" = "Confirm password";
+"validation_explanation_email" = "Incorrect format. Please enter a valid email address";
+"validation_explanation_password" = "The password must have at least 6 characters";
+"validation_explanation_confirm_password" = "The passwords do not match";
+
+"search" = "Search";
+"orders" = "Orders";
+"cart" = "Cart";
+"favorites" = "Favorites";
+"loading" = "Loading...";
+
+"all_reviews" = "All reviews";
+"cteate_route" = "Cteate route";
+"make_order" = "Make Order";
+
+"assortment" = "Assortment";
+"menu" = "Menu";
+
+"pay_with_card" = "Pay with card";
+"amount" = "Amount:";
+"uah_currency" = "%@ UAH";
+"short_meters" = "%@m";
+"km" = "%@km";
+"kilo" = "%@k";
+
+"open" = "Open";
+"closed" = "Closed";
+"until" = "until %@";
+"tech_break" = "Technical break";
+
+"organizations" = "Organizations";
+
+"monday" = "Monday";
+"short_monday" = "Mon.";
+"tuesday" = "Tuesday";
+"short_tuesday" = "Tue.";
+"wednesday" = "Wednesday";
+"short_wednesday" = "Wed.";
+"thursday" = "Thursday";
+"short_thursday" = "Thu.";
+"friday" = "Friday";
+"short_friday" = "Fri.";
+"saturday" = "Saturday";
+"short_saturday" = "Sat.";
+"sunday" = "Sunday";
+"short_sunday" = "Sun.";
+
+"today" = "Today";
+"tomorrow" = "Tomorrow";
+
+"filters" = "Filters";
+"organization_type" = "Organization type";
+"by_tags" = "By tags";
+"by_cuisine" = "By cuisine";
+"add_plus" = "Add +";
+"average_check" = "Average check";
+"from" = "From";
+"to" = "To";
+"shops" = "Shops";
+"cafes_and_restaurants" = "Cafes and restaurants";
+"coming_soon" = "Coming soon...";
+"check_internet" = "Check internet connection.";
+
+"map" = "Map";
+"list" = "List";
+"by_rating" = "By rating";
+"by_distance" = "By distance";
+"alphabetically" = "Alphabetically";
+
+"my_orders" = "My Orders";
+"current_order" = "Current order";
+"current_orders" = "Current orders";
+"order_status_started" = "Started";
+"order_status_in_progress" = "In progress...";
+"order_status_ready" = "Ready";
+"order_status_canceled" = "Canceled";
+"order_status_successful" = "Successful";
+"order_status_problem" = "Problem";
+
+"cancel_order" = "Cancel order";
+"you_can_cancel_order" = "You can cancel order";
+"show_qr_to_operator" = "Show the QR-code to the operator";
+
+"profile" = "Profile";
+"name" = "Name";
+"phone" = "Phone";
+"validation_explanation_name" = "Name must have at least 2 characters";
+"validation_explanation_phone" = "Incorrect format. Use +38(012)3456789";
+"appeal" = ", %@";
+"good_morning_user" = "Good morning%@!";
+"good_afternoon_user" = "Good afternoon%@!";
+"good_evening_user" = "Good evening%@!";
+"good_night_user" = "Good night%@!";
+"write_to_support" = "Write to the support";
+"authorize" = "Authorize";
+"exit" = "Exit";
+"error_occurred" = "Error occurred. Please, try again.";
+
+"clear" = "Clear";
+"apply" = "Apply";

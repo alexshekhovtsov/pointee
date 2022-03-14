@@ -1,0 +1,195 @@
+[
+    {
+        "id": "order_1",
+        "business_id": "Buffet_ID",
+        "title": "Buffet",
+        "logo_url": "https://lh5.googleusercontent.com/p/AF1QipMObythiI5fc7GPMMLP_MgcAOUpItyLjkkW0EmQ=w408-h611-k-no",
+        "status": "successful",
+        "status_date": "2020-05-08T09:13:34Z",
+        "amount": 104.50,
+        "is_favorite": true,
+        "products": [
+            {
+                "barcode": "385231345641",
+                "vendor_code": "4231432",
+                "seller_id": "McDonalds_ID",
+                "title": "Тарталетка с малиной",
+                "image_url": "https://www.gastronom.ru/binfiles/images/20160705/bcb89d7e.jpg",
+                "manufacturer": "Кулины",
+                "price": 34.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345642",
+                "vendor_code": "4231433",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с вишней",
+                "image_url": "https://vilkin.pro/wp-content/uploads/2018/08/pirog-s-vishnei-iz-sloenogo-testa-770x513.jpg",
+                "manufacturer": "Кулины",
+                "price": 44.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345643",
+                "vendor_code": "4231434",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с яблоком",
+                "image_url": "https://wowcook.net/wp-content/uploads/2017/06/IMG_5648.jpg",
+                "manufacturer": "Кулины",
+                "price": 38.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            }
+        ]
+    },
+    {
+        "id": "order_2",
+        "business_id": "Underground_ID",
+        "title": "Underground coffee",
+        "logo_url": "https://lh5.googleusercontent.com/p/AF1QipOAZ8wvJORIP1mU8-vlyQIMA_SCC1IlS-VPtNkV=w408-h544-k-no",
+        "status": "successful",
+        "status_date": "2020-05-08T14:13:34Z",
+        "amount": 104.50,
+        "is_favorite": true,
+        "products": [
+            {
+                "barcode": "385231345641",
+                "vendor_code": "4231432",
+                "seller_id": "McDonalds_ID",
+                "title": "Тарталетка с малиной",
+                "image_url": "https://www.gastronom.ru/binfiles/images/20160705/bcb89d7e.jpg",
+                "manufacturer": "Кулины",
+                "price": 34.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345642",
+                "vendor_code": "4231433",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с вишней",
+                "image_url": "https://vilkin.pro/wp-content/uploads/2018/08/pirog-s-vishnei-iz-sloenogo-testa-770x513.jpg",
+                "manufacturer": "Кулины",
+                "price": 44.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345643",
+                "vendor_code": "4231434",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с яблоком",
+                "image_url": "https://wowcook.net/wp-content/uploads/2017/06/IMG_5648.jpg",
+                "manufacturer": "Кулины",
+                "price": 38.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            }
+        ]
+    },
+    {
+        "id": "order_3",
+        "business_id": "Buffet_ID",
+        "title": "Buffet",
+        "logo_url": "https://lh5.googleusercontent.com/p/AF1QipMObythiI5fc7GPMMLP_MgcAOUpItyLjkkW0EmQ=w408-h611-k-no",
+        "status": "problem",
+        "status_date": "2020-05-08T09:13:34Z",
+        "amount": 104.50,
+        "is_favorite": true,
+        "products": [
+            {
+                "barcode": "385231345641",
+                "vendor_code": "4231432",
+                "seller_id": "McDonalds_ID",
+                "title": "Тарталетка с малиной",
+                "image_url": "https://www.gastronom.ru/binfiles/images/20160705/bcb89d7e.jpg",
+                "manufacturer": "Кулины",
+                "price": 34.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345642",
+                "vendor_code": "4231433",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с вишней",
+                "image_url": "https://vilkin.pro/wp-content/uploads/2018/08/pirog-s-vishnei-iz-sloenogo-testa-770x513.jpg",
+                "manufacturer": "Кулины",
+                "price": 44.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345643",
+                "vendor_code": "4231434",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с яблоком",
+                "image_url": "https://wowcook.net/wp-content/uploads/2017/06/IMG_5648.jpg",
+                "manufacturer": "Кулины",
+                "price": 38.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            }
+        ]
+    },
+    {
+        "id": "order_4",
+        "business_id": "Underground_ID",
+        "title": "Underground coffee",
+        "logo_url": "https://lh5.googleusercontent.com/p/AF1QipOAZ8wvJORIP1mU8-vlyQIMA_SCC1IlS-VPtNkV=w408-h544-k-no",
+        "status": "canceled",
+        "status_date": "2020-05-08T14:13:34Z",
+        "amount": 104.50,
+        "is_favorite": true,
+        "products": [
+            {
+                "barcode": "385231345641",
+                "vendor_code": "4231432",
+                "seller_id": "McDonalds_ID",
+                "title": "Тарталетка с малиной",
+                "image_url": "https://www.gastronom.ru/binfiles/images/20160705/bcb89d7e.jpg",
+                "manufacturer": "Кулины",
+                "price": 34.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345642",
+                "vendor_code": "4231433",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с вишней",
+                "image_url": "https://vilkin.pro/wp-content/uploads/2018/08/pirog-s-vishnei-iz-sloenogo-testa-770x513.jpg",
+                "manufacturer": "Кулины",
+                "price": 44.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            },
+            {
+                "barcode": "385231345643",
+                "vendor_code": "4231434",
+                "seller_id": "McDonalds_ID",
+                "title": "Пирог с яблоком",
+                "image_url": "https://wowcook.net/wp-content/uploads/2017/06/IMG_5648.jpg",
+                "manufacturer": "Кулины",
+                "price": 38.4,
+                "description": null,
+                "type": "goods",
+                "status": "enabled"
+            }
+        ]
+    }
+
+]

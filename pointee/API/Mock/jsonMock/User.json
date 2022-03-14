@@ -1,0 +1,10 @@
+{
+    "name": "Alexander",
+    "email": "shehovtsov.san@gmail.com",
+    "phone": "+380500240222",
+    "user_id": "qwerqwerqwer123",
+    "is_registered": true,
+    "favorites_business": [
+        "Ridnenkiy_ID"
+    ]
+}

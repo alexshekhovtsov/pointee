@@ -1,0 +1,222 @@
+[
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_2",
+        "title": "Молочные продукты",
+        "image_url": "https://delo.ua/files/news/images/3493/76/picture2_za-god-molochnye-_349376_p0.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Молоко",
+                "image_url": "https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3363-3065-4436-b631-373464313966__milk-2474993_1280.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Сыр",
+                "image_url": "https://ayurvedika.ru/wp-content/uploads/2012/07/dairy.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_2",
+        "title": "Молочные продукты",
+        "image_url": "https://delo.ua/files/news/images/3493/76/picture2_za-god-molochnye-_349376_p0.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Молоко",
+                "image_url": "https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3363-3065-4436-b631-373464313966__milk-2474993_1280.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Сыр",
+                "image_url": "https://ayurvedika.ru/wp-content/uploads/2012/07/dairy.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_2",
+        "title": "Молочные продукты",
+        "image_url": "https://delo.ua/files/news/images/3493/76/picture2_za-god-molochnye-_349376_p0.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Молоко",
+                "image_url": "https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3363-3065-4436-b631-373464313966__milk-2474993_1280.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Сыр",
+                "image_url": "https://ayurvedika.ru/wp-content/uploads/2012/07/dairy.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    },
+    {
+        "id": "category_1",
+        "title": "Пекарня",
+        "image_url": "https://rs.img.com.ua/crop?v2=1&w=600&h=0&url=%2F%2Fv.img.com.ua%2Fb%2Forig%2Fe%2F7a%2F15fbf018928e55da139a836e1842a7ae.jpg",
+        "subcategories": [
+            {
+                "id": "category_1_1",
+                "title": "Батоны",
+                "image_url": "https://img2.zakaz.ua/src.1460623871.ad72436478c_2016-04-14_vitaliy/src.1460623871.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            },
+            {
+                "id": "category_1_2",
+                "title": "Пироги",
+                "image_url": "https://hlebopechka.ru/forum/result-photo/18396.jpg",
+                "subcategories": null,
+                "status": "enabled"
+            }
+        ],
+        "status": "enabled"
+    }
+]

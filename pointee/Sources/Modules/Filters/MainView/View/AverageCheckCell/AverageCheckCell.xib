@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Evolventa-Bold.ttf">
+            <string>Evolventa-Bold</string>
+        </array>
+        <array key="Evolventa-Regular.ttf">
+            <string>Evolventa-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="126" id="Nzs-wu-d6V" customClass="AverageCheckCell" customModule="pointee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nzs-wu-d6V" id="mtk-v9-zXP">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USj-2e-ctZ">
+                        <rect key="frame" x="0.0" y="0.0" width="452" height="126"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGw-xY-tRe">
+                                <rect key="frame" x="0.0" y="0.0" width="452" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PU-5A-OfZ">
+                                        <rect key="frame" x="16" y="3" width="420" height="24"/>
+                                        <fontDescription key="fontDescription" name="Evolventa-Regular" family="Evolventa" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22352941179999999" green="0.21960784310000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="3PU-5A-OfZ" secondAttribute="trailing" constant="16" id="oy8-zR-Ba3"/>
+                                    <constraint firstItem="3PU-5A-OfZ" firstAttribute="leading" secondItem="fGw-xY-tRe" secondAttribute="leading" constant="16" id="u38-LO-TUv"/>
+                                    <constraint firstItem="3PU-5A-OfZ" firstAttribute="centerY" secondItem="fGw-xY-tRe" secondAttribute="centerY" id="v3E-uQ-MJk"/>
+                                    <constraint firstAttribute="height" constant="30" id="ysK-S5-W0t"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ifd-KZ-PN6">
+                                <rect key="frame" x="105.5" y="46" width="241" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rac-0b-lkf">
+                                        <rect key="frame" x="0.0" y="0.0" width="48.5" height="24"/>
+                                        <fontDescription key="fontDescription" name="Evolventa-Regular" family="Evolventa" pointSize="18"/>
+                                        <color key="textColor" red="0.93333333330000001" green="0.70588235290000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GF8-N2-SnF">
+                                        <rect key="frame" x="64.5" y="0.0" width="48" height="24"/>
+                                        <fontDescription key="fontDescription" name="Evolventa-Bold" family="Evolventa" pointSize="18"/>
+                                        <color key="textColor" red="0.93333333330000001" green="0.70588235290000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HoF-Rb-ltM">
+                                        <rect key="frame" x="128.5" y="0.0" width="48.5" height="24"/>
+                                        <fontDescription key="fontDescription" name="Evolventa-Regular" family="Evolventa" pointSize="18"/>
+                                        <color key="textColor" red="0.93333333330000001" green="0.70588235290000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaI-im-GXV">
+                                        <rect key="frame" x="193" y="0.0" width="48" height="24"/>
+                                        <fontDescription key="fontDescription" name="Evolventa-Bold" family="Evolventa" pointSize="18"/>
+                                        <color key="textColor" red="0.93333333330000001" green="0.70588235290000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aks-OI-TzG">
+                                <rect key="frame" x="16" y="83" width="48.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Evolventa-Regular" family="Evolventa" pointSize="18"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.70588235290000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geg-g9-cYa">
+                                <rect key="frame" x="387.5" y="86" width="48.5" height="18"/>
+                                <fontDescription key="fontDescription" name="Evolventa-Regular" family="Evolventa" pointSize="18"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.70588235290000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ifu-5H-frw">
+                                <rect key="frame" x="80.5" y="80" width="291" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" placeholder="YES" id="s9h-P2-Wmw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ifu-5H-frw" firstAttribute="centerY" secondItem="Aks-OI-TzG" secondAttribute="centerY" id="1g9-KQ-nnj"/>
+                            <constraint firstAttribute="trailing" secondItem="geg-g9-cYa" secondAttribute="trailing" constant="16" id="1lS-T8-daO"/>
+                            <constraint firstItem="fGw-xY-tRe" firstAttribute="top" secondItem="USj-2e-ctZ" secondAttribute="top" id="5yK-ty-kfS"/>
+                            <constraint firstItem="fGw-xY-tRe" firstAttribute="leading" secondItem="USj-2e-ctZ" secondAttribute="leading" id="QGJ-en-d3A"/>
+                            <constraint firstAttribute="trailing" secondItem="fGw-xY-tRe" secondAttribute="trailing" id="UbJ-WV-Kd5"/>
+                            <constraint firstItem="Aks-OI-TzG" firstAttribute="leading" secondItem="USj-2e-ctZ" secondAttribute="leading" constant="16" id="cVc-qH-Xik"/>
+                            <constraint firstItem="Ifu-5H-frw" firstAttribute="centerY" secondItem="geg-g9-cYa" secondAttribute="centerY" id="hLx-3G-h3E"/>
+                            <constraint firstItem="geg-g9-cYa" firstAttribute="leading" secondItem="Ifu-5H-frw" secondAttribute="trailing" constant="16" id="hbr-Ee-kMG"/>
+                            <constraint firstItem="ifd-KZ-PN6" firstAttribute="centerX" secondItem="USj-2e-ctZ" secondAttribute="centerX" id="jQ6-Cz-5Mm"/>
+                            <constraint firstAttribute="bottom" secondItem="Ifu-5H-frw" secondAttribute="bottom" constant="16" id="mne-3P-mOR"/>
+                            <constraint firstItem="ifd-KZ-PN6" firstAttribute="top" secondItem="fGw-xY-tRe" secondAttribute="bottom" constant="16" id="pKG-4H-Ecd"/>
+                            <constraint firstItem="Ifu-5H-frw" firstAttribute="leading" secondItem="Aks-OI-TzG" secondAttribute="trailing" constant="16" id="rW0-ap-X86"/>
+                            <constraint firstItem="geg-g9-cYa" firstAttribute="top" secondItem="ifd-KZ-PN6" secondAttribute="bottom" constant="16" id="z7n-Ka-2qr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="USj-2e-ctZ" secondAttribute="trailing" id="6e0-Ym-KZY"/>
+                    <constraint firstItem="USj-2e-ctZ" firstAttribute="leading" secondItem="mtk-v9-zXP" secondAttribute="leading" id="GPx-fs-H4H"/>
+                    <constraint firstItem="USj-2e-ctZ" firstAttribute="top" secondItem="mtk-v9-zXP" secondAttribute="top" id="gTv-uH-hHB"/>
+                    <constraint firstAttribute="bottom" secondItem="USj-2e-ctZ" secondAttribute="bottom" id="hej-bs-ocP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="container" destination="USj-2e-ctZ" id="Gow-Lt-E8f"/>
+                <outlet property="fromLabel" destination="Rac-0b-lkf" id="GDB-Xp-CaO"/>
+                <outlet property="fromValue" destination="GF8-N2-SnF" id="iJs-gt-3ms"/>
+                <outlet property="maxValue" destination="geg-g9-cYa" id="I0z-xx-uZ2"/>
+                <outlet property="minValue" destination="Aks-OI-TzG" id="Hhg-vL-fjD"/>
+                <outlet property="sliderContainer" destination="Ifu-5H-frw" id="bjP-0S-F3Y"/>
+                <outlet property="titleLabel" destination="3PU-5A-OfZ" id="21X-q2-Nf2"/>
+                <outlet property="toLabel" destination="HoF-Rb-ltM" id="0tm-si-C03"/>
+                <outlet property="toValue" destination="JaI-im-GXV" id="IhW-Py-f5k"/>
+            </connections>
+            <point key="canvasLocation" x="224.63768115942031" y="198.88392857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

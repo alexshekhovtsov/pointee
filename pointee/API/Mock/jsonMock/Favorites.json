@@ -1,0 +1,26 @@
+[
+    {
+        "id": "Ridnenkiy_ID",
+        "latitude": 49.951123045828005,
+        "longitude": 36.12488251179457,
+        "title": "Ridnenkiy",
+        "logo_url": "https://lh5.googleusercontent.com/p/AF1QipPoeXB1KJMejpKlkxlPvynUFjcjKXfh0QDHcPtx=w408-h408-k-no",
+        "preview_url": "https://lh5.googleusercontent.com/p/AF1QipPoeXB1KJMejpKlkxlPvynUFjcjKXfh0QDHcPtx=w408-h408-k-no",
+        "reviews_count": 1235,
+        "rating": 5.0,
+        "current_status": "open",
+        "open_close_date": "2020-05-20T21:00:00Z"
+    },
+    {
+        "id": "McDonalds_ID",
+        "latitude": 50.013400,
+        "longitude": 36.226184,
+        "title": "McDonald's",
+        "logo_url": "https://i.pinimg.com/564x/a8/39/e2/a839e213eebb9aad29161845520c0f08.jpg",
+        "preview_url": "https://static.dezeen.com/uploads/2015/12/Non-Design-McDonalds_Landini-Associates_Hong-Kong_dezeen_1568_5.jpg",
+        "reviews_count": 3463,
+        "rating": 4.9,
+        "current_status": "open",
+        "open_close_date": "2020-05-20T21:00:00Z"
+    }
+]

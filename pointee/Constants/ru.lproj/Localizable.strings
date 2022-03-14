@@ -1,0 +1,120 @@
+/* 
+  Localizable.strings
+  pointee
+
+  Created by Alexander on 21.04.2020.
+  Copyright © 2020 Point. All rights reserved.
+*/
+
+"ok_title" = "Ок";
+"yes_title" = "Да";
+"cancel" = "Отмена";
+
+"sign_up" = "Регистрация";
+"sign_in" = "Вход";
+"continue_as_a_guest" = "Продолжить как гость";
+"start_here" = "Начнём";
+"welcome_back" = "С возвращением";
+
+"email" = "E-mail";
+"password" = "Пароль";
+"confirm_password" = "Повторите пароль";
+"validation_explanation_email" = "Некорректный формат. Проверьте правильность ввода";
+"validation_explanation_password" = "Пароль должен состоять минимум из 6 символов";
+"validation_explanation_confirm_password" = "Пароли не совпадают";
+
+"search" = "Поиск";
+"orders" = "Заказы";
+"cart" = "Корзина";
+"favorites" = "Избранное";
+"loading" = "Загрузка...";
+
+"all_reviews" = "Все отзывы";
+"cteate_route" = "Построить маршрут";
+"make_order" = "Сделать заказ";
+
+"assortment" = "Ассортимент";
+"menu" = "Меню";
+
+"pay_with_card" = "Оплатить картой";
+"amount" = "Сумма:";
+"uah_currency" = "%@ грн.";
+"short_meters" = "%@ м";
+"km" = "%@ км";
+"kilo" = "%@k";
+
+"open" = "Открыто";
+"closed" = "Закрыто";
+"until" = "до %@";
+"tech_break" = "Тех. перерыв";
+
+"organizations" = "Организации";
+
+"monday" = "Понедельник";
+"short_monday" = "Пн";
+"tuesday" = "Вторник";
+"short_tuesday" = "Вт";
+"wednesday" = "Среда";
+"short_wednesday" = "Ср";
+"thursday" = "Четверг";
+"short_thursday" = "Чт";
+"friday" = "Пятница";
+"short_friday" = "Пт";
+"saturday" = "Суббота";
+"short_saturday" = "Сб";
+"sunday" = "Воскресенье";
+"short_sunday" = "Вс";
+
+"today" = "Сегодня";
+"tomorrow" = "Завтра";
+
+"filters" = "Фильтры";
+"organization_type" = "Тип организации";
+"by_tags" = "По тегам";
+"by_cuisine" = "По кухне";
+"add_plus" = "Добавить +";
+"average_check" = "Средний чек";
+"from" = "От";
+"to" = "До";
+"shops" = "Магазины";
+"cafes_and_restaurants" = "Кафе и рестораны";
+"coming_soon" = "Совсем скоро...";
+"check_internet" = "Проверьте интернет соединение.";
+
+"map" = "Карта";
+"list" = "Список";
+"by_rating" = "По рейтингу";
+"by_distance" = "По расстоянию";
+"alphabetically" = "По алфавиту";
+
+"my_orders" = "Мои заказы";
+"current_order" = "Текущий заказ";
+"current_orders" = "Текущие заказы";
+"order_status_started" = "Оформляется";
+"order_status_in_progress" = "Готовится...";
+"order_status_ready" = "Готов";
+"order_status_canceled" = "Отменён";
+"order_status_successful" = "Успешный";
+"order_status_problem" = "Проблемный";
+
+"cancel_order" = "Отменить заказ";
+"you_can_cancel_order" = "Вы можете отменить заказ";
+"show_qr_to_operator" = "Покажите QR-код оператору";
+
+"profile" = "Профиль";
+"name" = "Имя";
+"phone" = "Телефон";
+"validation_explanation_name" = "Имя должно состоять минимум из 2 символов";
+"validation_explanation_phone" = "Некорректный формат. Используйте +38(012)3456789";
+"appeal" = ", %@";
+"good_morning_user" = "Доброе утро%@!";
+"good_afternoon_user" = "Добрый день%@!";
+"good_evening_user" = "Добрый вечер%@!";
+"good_night_user" = "Доброй ночи%@!";
+"write_to_support" = "Написать в поддержку";
+"authorize" = "Авторизоваться";
+"exit" = "Выход";
+"error_occurred" = "Возникла ошибка. Попробуйте заново.";
+
+"clear" = "Очистить";
+"apply" = "Применить";

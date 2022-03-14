@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Evolventa-Bold.ttf">
+            <string>Evolventa-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="51" id="Nzs-wu-d6V" customClass="TagItemCell" customModule="pointee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="51"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nzs-wu-d6V" id="mtk-v9-zXP">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tdd-iz-fF3">
+                        <rect key="frame" x="16" y="16" width="380" height="19"/>
+                        <fontDescription key="fontDescription" name="Evolventa-Bold" family="Evolventa" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle-tick" translatesAutoresizingMaskIntoConstraints="NO" id="2gd-aT-4Ok">
+                        <rect key="frame" x="412" y="13.5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="3tg-jS-8zW"/>
+                            <constraint firstAttribute="width" constant="24" id="XMR-EQ-V8l"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7f8-Td-rJj">
+                        <rect key="frame" x="16" y="50" width="436" height="1"/>
+                        <color key="backgroundColor" red="0.22352941179999999" green="0.21960784310000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="1aU-f1-cv2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="7f8-Td-rJj" firstAttribute="leading" secondItem="mtk-v9-zXP" secondAttribute="leading" constant="16" id="H1q-7w-oQN"/>
+                    <constraint firstItem="Tdd-iz-fF3" firstAttribute="leading" secondItem="mtk-v9-zXP" secondAttribute="leading" constant="16" id="PGP-JQ-jdo"/>
+                    <constraint firstAttribute="trailing" secondItem="7f8-Td-rJj" secondAttribute="trailing" id="RhU-j9-oDE"/>
+                    <constraint firstItem="2gd-aT-4Ok" firstAttribute="centerY" secondItem="mtk-v9-zXP" secondAttribute="centerY" id="U2E-sJ-z7u"/>
+                    <constraint firstAttribute="bottom" secondItem="7f8-Td-rJj" secondAttribute="bottom" id="ajJ-Yz-qnT"/>
+                    <constraint firstItem="2gd-aT-4Ok" firstAttribute="leading" secondItem="Tdd-iz-fF3" secondAttribute="trailing" constant="16" id="eNU-ko-m0g"/>
+                    <constraint firstItem="Tdd-iz-fF3" firstAttribute="top" secondItem="mtk-v9-zXP" secondAttribute="top" constant="16" id="iEm-PV-6ug"/>
+                    <constraint firstAttribute="trailing" secondItem="2gd-aT-4Ok" secondAttribute="trailing" constant="16" id="q9y-sd-7tc"/>
+                    <constraint firstAttribute="bottom" secondItem="Tdd-iz-fF3" secondAttribute="bottom" constant="16" id="uqR-qN-gdG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="check" destination="2gd-aT-4Ok" id="LQi-t3-XMg"/>
+                <outlet property="titleLabel" destination="Tdd-iz-fF3" id="1wf-Fs-g3G"/>
+            </connections>
+            <point key="canvasLocation" x="224.63768115942031" y="173.77232142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="circle-tick" width="24" height="24"/>
+    </resources>
+</document>

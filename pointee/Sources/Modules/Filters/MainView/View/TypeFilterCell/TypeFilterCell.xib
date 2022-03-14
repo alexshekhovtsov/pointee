@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Evolventa-Regular.ttf">
+            <string>Evolventa-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="212" id="Nzs-wu-d6V" customClass="TypeFilterCell" customModule="pointee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="212"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nzs-wu-d6V" id="mtk-v9-zXP">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="212"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="DBj-SU-3II" customClass="ContentSizedTableView" customModule="pointee" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="30" width="452" height="182"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zVJ-3j-hga">
+                        <rect key="frame" x="0.0" y="0.0" width="452" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnH-e7-mL1">
+                                <rect key="frame" x="16" y="3" width="420" height="24"/>
+                                <fontDescription key="fontDescription" name="Evolventa-Regular" family="Evolventa" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22352941176470587" green="0.2196078431372549" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fnH-e7-mL1" firstAttribute="centerY" secondItem="zVJ-3j-hga" secondAttribute="centerY" id="9RT-qS-Y3M"/>
+                            <constraint firstAttribute="trailing" secondItem="fnH-e7-mL1" secondAttribute="trailing" constant="16" id="AND-zD-GfZ"/>
+                            <constraint firstItem="fnH-e7-mL1" firstAttribute="leading" secondItem="zVJ-3j-hga" secondAttribute="leading" constant="16" id="NPi-3I-i3z"/>
+                            <constraint firstAttribute="height" constant="30" id="yYe-fa-oHB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="DBj-SU-3II" firstAttribute="top" secondItem="zVJ-3j-hga" secondAttribute="bottom" id="1rj-lD-eue"/>
+                    <constraint firstItem="DBj-SU-3II" firstAttribute="leading" secondItem="mtk-v9-zXP" secondAttribute="leading" id="5T9-tc-R2h"/>
+                    <constraint firstItem="zVJ-3j-hga" firstAttribute="top" secondItem="mtk-v9-zXP" secondAttribute="top" id="5iV-ID-TsN"/>
+                    <constraint firstAttribute="bottom" secondItem="DBj-SU-3II" secondAttribute="bottom" id="7Qd-kG-ZZG"/>
+                    <constraint firstAttribute="trailing" secondItem="DBj-SU-3II" secondAttribute="trailing" id="OQ1-Fx-MP8"/>
+                    <constraint firstItem="zVJ-3j-hga" firstAttribute="leading" secondItem="mtk-v9-zXP" secondAttribute="leading" id="krE-jG-GDJ"/>
+                    <constraint firstAttribute="trailing" secondItem="zVJ-3j-hga" secondAttribute="trailing" id="sFb-Al-Pxw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="tableView" destination="DBj-SU-3II" id="AtQ-MB-z7b"/>
+                <outlet property="titleLabel" destination="fnH-e7-mL1" id="t3C-H1-ERk"/>
+            </connections>
+            <point key="canvasLocation" x="224.63768115942031" y="227.67857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

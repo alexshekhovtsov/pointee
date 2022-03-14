@@ -1,0 +1,45 @@
+{
+    "id": "McDonalds_ID",
+    "latitude": 50.013400,
+    "longitude": 36.226184,
+    "title": "McDonald's",
+    "logo_url": "https://i.pinimg.com/564x/a8/39/e2/a839e213eebb9aad29161845520c0f08.jpg",
+    "preview_url": "https://static.dezeen.com/uploads/2015/12/Non-Design-McDonalds_Landini-Associates_Hong-Kong_dezeen_1568_5.jpg",
+    "images_urls": [
+        "https://nmgprod.s3.amazonaws.com/media/files/47/b0/47b0230d67326aff412e7dc41f910eef/cover_image.jpg.640x360_q85_crop.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-s/0f/7b/57/be/inside-mcdonald-s-of.jpg",
+        "https://static.dezeen.com/uploads/2015/12/Non-Design-McDonalds_Landini-Associates_Hong-Kong_dezeen_1568_5.jpg",
+        "https://lh5.googleusercontent.com/p/AF1QipP8KYQqhsCG4gA2_SNA_KFsEOk5in_XjST_vxi-=w408-h306-k-no"
+    ],
+    "type": "cafe",
+    "rating": 4.9,
+    "reviews_count": 3463,
+    "contact_info": {
+        "address": "г. Харьков, пр. Науки, 14",
+        "phone": "+380500240222",
+        "email": "mac.mac@gmail.com",
+        "website": "mac.mac"
+    },
+    "tags": null,
+    "schedule": [
+        {
+            "day": 1,
+            "all_day": true,
+            "open_time": null,
+            "close_time": null,
+            "break_time": null,
+            "break_duration": 30.5
+        },
+        {
+            "day": 2,
+            "all_day": true,
+            "open_time": null,
+            "close_time": null,
+            "break_time": null,
+            "break_duration": 34.5
+        }
+    ],
+    "last_order_interval": 30.5,
+    "order_cancel_interval": 5.5,
+    "current_status": "open"
+}
